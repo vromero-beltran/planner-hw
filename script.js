@@ -41,10 +41,11 @@ $(document).ready(function () {
   });
   var currentTime = dayjs().format('HH:mm');
   console.log(currentTime)
-  $('div').addclass('container-lg')
-  $('div').addid('#hour-9')
-  $('div').appendChild('<div>');
-  $('div.div').appendTo('<div>9AM</div>')
+  $('div').addClass('container-lg px-5')
+  
+  $('p').addClass("row time-block past")
+  $('textarea').addClass("col-8 col-md-10 description")
+  $('i').addClass("fas fa-save")
   //
   // TODO: Add code to apply the past, present, or future class to each time
   // block by comparing the id to the current hour. HINTS: How can the id
